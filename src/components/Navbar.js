@@ -19,13 +19,13 @@ export default function Navbar() {
   return (
     <AppBar className={classes.nav} position="fixed">
       <Toolbar>
-        <Typography>Exercise Tracker</Typography>
+        <Typography>Activity Tracker</Typography>
         <Tabs>
           <Link className={classes.link} to="/">
-            <Tab label="Exercises" />
+            <Tab label="Activities" />
           </Link>
           <Link className={classes.link} to="/create">
-            <Tab label="Add Exercise" />
+            <Tab label="Add Activity" />
           </Link>
           <Link className={classes.link} to="/user">
             <Tab label="Create User" />

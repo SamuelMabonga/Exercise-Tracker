@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/styles";
 import Navbar from "./components/Navbar";
 import ExercisesList from "./components/ExercisesList";
 import EditExercise from "./components/EditExercise";
-import CreateExercise from "./components/CreateExercise";
+import CreateExercise from "./components/ExerciseHooks";
 import CreateUser from "./components/CreateUser";
 
 export default function App() {
